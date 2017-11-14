@@ -1,0 +1,47 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+</head>
+<body style="font-family: trebuchet, sans-serif;">
+  <table id="test">
+    <thead>
+      <tr><th>city</th><th>area</th><th>price</th><th>qmPrice</th><th>rent</th><th>faktor</th><th>rendite</th><th>uri</th></tr>
+    </thead>
+	<tbody>
+	</tbody>
+  </table>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="store.js"></script>
+  <script>
+  $(function(){
+    $("#example").dataTable();
+  })
+
+$('#test').dataTable({
+    "aaData": testdata,
+    
+     "aoColumns": [
+        { "mDataProp": "city" },
+        { "mDataProp": "area" },
+        { "mDataProp": "price" },
+        { "mDataProp": "qmPrice" },
+        { "mDataProp": "rent" },
+        { "mDataProp": "faktor" },
+        { "mDataProp": "rendite" },
+        { 
+		"mDataProp": "uri",
+		"mRender": function(uri, type, full){
+			return '<a href="'+uri+'"  target="popup" onclick="window.open( this.href,\'Immo-Details\',\'width=600,height=400\', toolbar=1, resizable=1 ); " style="font-size: 12px;">' +uri+ '</a>';
+		}
+
+	 }
+        
+    ]
+	
+});
+
+</script>
+</body>
+</html>
+
