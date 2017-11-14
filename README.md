@@ -1,4 +1,4 @@
-This small project is a perl-written webdata-scrapper, data-recalculater and new webpage-generator ( one html-file with jquery-datatable-lib ), almost "procedural", just one scripta and programmed in one day, cause the customer just wanted to have a fast solution for his needs. At the time, when i was programming the scrapper, some data was not possible to get by a service ( REST ), so a scrapper was a suitable solution.
+This small project is a perl-written webdata-scrapper, data-recalculater and new webpage-generator ( one html-file with jquery-datatable-lib ), almost "procedural", just one script and programmed in one day, cause the customer just wanted to have a fast solution for his needs. At the time, when i was programming the scrapper, some data was not possible to get by a service ( REST ), so a scrapper was a suitable solution.
 
 After running this script in the terminal, they is a produced locale html-page, just opened into a browser.
 
