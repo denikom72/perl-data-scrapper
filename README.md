@@ -1,44 +1,4 @@
-This small project is a perl-written webdata-scrapper and data-recalculater, which store the data as an javascript-object in the store.js-file. It is complete "procedural", just one script. At the time, when i was programming the scrapper, some data was not possible to get by a service ( REST ), so ....
+Webdata-scrapper and data-evaluator. It stores the scrapped data as a javascript-object into the "store.js" file.
 
-Run the script in a terminal with some params and after it finished, open the html-document "tableoutp.html" by a browser.
+It is a terminal-script. After it has finished, use a browser to open the  "tableoutp.html" file.
 
-See the [Video-presentation](http://www.green-homepages.de/#real_estate)
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/denikom72/perl-data-scrapper/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/denikom72/perl-data-scrapper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
