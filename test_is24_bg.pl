@@ -10,7 +10,7 @@ process_data.pl - Script to process real estate data
 
 =head1 SYNOPSIS
 
-process_data.pl [options] <parameter1> <parameter2> <parameter3>
+process_data.pl <cityname> <parameter2> <parameter3>
 
 =head1 DESCRIPTION
 
@@ -46,7 +46,7 @@ To run the script:
 
 =head1 AUTHOR
 
-Your Name
+Denis Komnenovic
 
 =cut
 
